@@ -1,0 +1,22 @@
+[package]
+name = "porter"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+homepage = "https://minoansecurity.com"
+authors = ["Dimitrios Prasakis <dimitrios@minoansecurity.com>", "Minoan Security GmbH <info@minoansecurity.com>"]
+description = "Zero-dependency Rust port scanner for Linux and macOS; Scan, watch, or kill listening ports from Rust code or the command line."
+license = "Apache-2.0"
+repository = "https://github.com/minoansecurity/porter"
+keywords = ["port", "scanner", "network", "procfs"]
+categories = ["network-programming", "os"]
+readme = "../README.md"
+
+[features]
+default = ["kill", "watch"]
+kill = []
+watch = []
+
+[[bin]]
+name = "porter"
+path = "src/main.rs"

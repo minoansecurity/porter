@@ -1,0 +1,14 @@
+<svg width="220" height="160" viewBox="0 0 220 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- lightning scar -->
+  <path d="M82 12 L82 40 L58 22 L58 50" fill="none" stroke="#888" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- left lens -->
+  <circle cx="72" cy="100" r="28" fill="none" stroke="#888" stroke-width="5"/>
+  <!-- right lens -->
+  <circle cx="148" cy="100" r="28" fill="none" stroke="#888" stroke-width="5"/>
+  <!-- bridge -->
+  <path d="M100 96 Q110 84 120 96" fill="none" stroke="#888" stroke-width="5" stroke-linecap="round"/>
+  <!-- left temple -->
+  <path d="M44 94 L28 94 Q22 94 22 100" fill="none" stroke="#888" stroke-width="5" stroke-linecap="round"/>
+  <!-- right temple -->
+  <path d="M176 94 L192 94 Q198 94 198 100" fill="none" stroke="#888" stroke-width="5" stroke-linecap="round"/>
+</svg>
